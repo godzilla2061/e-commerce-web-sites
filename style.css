@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Syne", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero-section{
+    background-image: url(./assests/image/background-image.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.hero-section div p{
+    font-size: 13px;
+}
+.hero-section div h2{
+    font-size: 20px;
+}
+@media(max-width:1300px){
+    .hero-section{
+        height: 80vh;
+    }
+}
+    @media(max-width:600px){
+        .hero-section{
+            height: 70vh;
+
+    }
+}
+/* navbar fonts */
+
+.navbar-brand{
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-item{
+    font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+/* end of navbar fonts */
+
+/* navbar hover */
+ .navbar-nav a {
+     transition: all .24s;  
+    }
+    /* .navbar-nav a:hover {
+       text-decoration: underline;
+    } */
+/* end of navbar hover */
+
+/* logo animation */
+.navbar a{
+    transition: all .24s;
+}
+.navbar a:hover{
+  color: green !important;
+  font-size: 17px;
+  /* padding-left: 400px; */
+  font-weight: bold;  
+}
+/* end of logo animation  */
+
+
+/* card image hover */
+.card{
+    /* height: 351px; */
+    overflow: hidden;
+    cursor: pointer;
+}
+.card img{
+    transition: all 0.4s;
+    
+}
+.card img:hover{
+    scale: 1.1;
+}
+.creater img{
+    clip-path: circle();
+    height: 40px;
+}
+/* end of card image hover */
+/* footer */
+.footer{   
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+   
+    bottom: 0;
+    width: 100%;
+}
+/* end of footer */
+
+/* latest blog read-more hover */
+.read-more a{
+transition: all .24s;
+}
+.read-more a:hover{
+    color: rgb(0, 0, 2) !important
+};
+/* end of latest-blog read-more hover */
+
+
+/* contact */
+.contact-backimg{
+    position: relative;
+   
+}
+.contact-info{
+    position: absolute;
+    left: 60%;
+    top: 55%;
+    z-index: 1;  
+}
+@media(max-width:600px){
+    .contact-info{
+        padding-top: 10px;
+    }
+}
+/* end of contact */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  /* height: 100px;
+  width: 100px; */
+  outline: black;
+  background-size: 100%, 100%;
+  /* border-radius: 50%; */
+  /* border: 1px solid black; */
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+  margin-left:px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+  margin-left: -160px;
+}
+  
+
+.contact-background img{
+     width: 100%;
+     /* height:90vh;
+} */
+@media(max-width:600px){
+    .contact-background img{
+        height: 30vh;
+    }
+}
+@media(max-width:1200px){
+    .contact-background img{
+        height: 200px;
+    }
+}
+}
+nav{
+    position: relative;
+    z-index: 5;
+}
